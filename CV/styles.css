@@ -1,0 +1,5 @@
+img{
+    width: 220px;
+    object-fit: contain;
+    border-radius:20px; 
+}
