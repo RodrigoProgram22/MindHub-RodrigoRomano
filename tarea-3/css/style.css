@@ -3,10 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body{
-  background-color: black;
-  color : white;
-}
 /* Estilos del encabezado */
 header {
   width: 100%;
@@ -21,7 +17,7 @@ h1 {
 nav {
   position: absolute;
   top: 60px;
-  right:640px;
+  right: 460px;
   z-index: 2;
 }
 
@@ -40,12 +36,12 @@ nav a {
   text-decoration: none;
   color: white;
   border: 1px solid black;
-  background-color: blueviolet;
+  background-color: cadetblue;
   padding: 5px;
   transition: 0.5s;
 }
 a:hover {
-  background-color: blue;
+  background-color: chartreuse;
   color: white;
 }
 /* Estilos de la imagen del encabezado */
@@ -58,6 +54,11 @@ a:hover {
 main {
   width: 1000px;
   margin: 0 auto;
+}
+.text-center{
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 section{
     margin : 30px 0;
@@ -74,7 +75,7 @@ article{
     border: solid 2px black;
     width: 200px;
     color: white;
-    background-color: blueviolet;
+    background-color: cadetblue;
     text-align: center;
   }
 .imagen img {
@@ -92,6 +93,24 @@ article{
 .contenido {
   overflow: hidden;
 }
+/* Tabla */
+table{
+  padding: 20px;
+  margin-top: 14px;
+}
+.align{
+  align-items: center;
+}
+thead th{
+  padding: 10px 50px;
+  border:2px solid cadetblue;
+  margin: 0 20px;
+}
+tbody td{
+  padding: 10px 50px;
+  border:2px solid cadetblue;
+  margin: 0 20px;
+}
 /* footer */
 footer{
     width: 100%;
@@ -99,5 +118,5 @@ footer{
     border: 1px solid black;
     padding: 10px 10px;
     color: white;
-    background-color: blueviolet;
+    background-color: cadetblue;
 }
