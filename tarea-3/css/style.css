@@ -55,38 +55,38 @@ main {
   width: 1000px;
   margin: 0 auto;
 }
-.text-center{
+.text-center {
   display: flex;
   justify-content: center;
   align-self: center;
 }
-.my{
+.my {
   margin: 20px 0px;
 }
-.mx{
+.mx {
   margin: 0px 20px;
 }
-.margin{
+.margin {
   margin: 20px 20px;
 }
-section{
-    margin : 30px 0;
+section {
+  margin: 30px 0;
 }
-article{
-    width: 100%;
-    margin-left: 40px;
+article {
+  width: 100%;
+  margin-left: 40px;
 }
 .contenedor {
-    width: 400px; /* Ancho específico */
-    margin: 20px auto; /* Centrado horizontal */
-  }
-  .titulo {
-    border: solid 2px black;
-    width: 200px;
-    color: white;
-    background-color: cadetblue;
-    text-align: center;
-  }
+  width: 400px; /* Ancho específico */
+  margin: 20px auto; /* Centrado horizontal */
+}
+.titulo {
+  border: solid 2px black;
+  width: 200px;
+  color: white;
+  background-color: cadetblue;
+  text-align: center;
+}
 .imagen img {
   width: 100px;
   object-fit: contain;
@@ -103,29 +103,29 @@ article{
   overflow: hidden;
 }
 /* Tabla */
-table{
+table {
   padding: 20px;
   margin-top: 14px;
 }
-.align{
+.align {
   align-items: center;
 }
-thead th{
+thead th {
   padding: 10px 50px;
-  border:2px solid cadetblue;
+  border: 2px solid cadetblue;
   margin: 0 20px;
 }
-tbody td{
+tbody td {
   padding: 10px 50px;
-  border:2px solid cadetblue;
+  border: 2px solid cadetblue;
   margin: 0 20px;
 }
 /* footer */
-footer{
-    width: 100%;
-    text-align: center;
-    border: 1px solid black;
-    padding: 10px 10px;
-    color: white;
-    background-color: cadetblue;
+footer {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  color: white;
+  background-color: cadetblue;
 }
