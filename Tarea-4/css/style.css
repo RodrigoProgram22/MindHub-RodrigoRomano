@@ -36,7 +36,6 @@ section {
 }
 article {
   width: 100%;
-  margin-left: 40px;
 }
 img {
   width: 200px;
@@ -52,7 +51,6 @@ a {
 /* nav */
 nav {
   width: 100%;
-  position: fixed;
   top: 0;
   background-color: var(--color-secundario);
   padding: 8px 10px;
@@ -85,12 +83,6 @@ nav a:hover {
   display: none;
 }
 /* home */
-.parent {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  margin-top: 70px;
-}
 .text-blanco {
   color: var(--color-primario);
 }
@@ -101,12 +93,13 @@ nav a:hover {
 .titulo {
   border: solid 2px black;
   border-radius: 10px;
-  width: 200px;
-  margin: 10px;
+  width: 100%;
+  margin: 20px;
   padding: 10px 0;
   color: var(--color-primario);
   background-color: var(--color-terciario);
-  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 /* Tabla */
 table {
